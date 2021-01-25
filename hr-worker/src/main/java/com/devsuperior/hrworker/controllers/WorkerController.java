@@ -20,9 +20,9 @@ import com.devsuperior.hrworker.repositories.WorkerRepository;
 @RefreshScope
 @RestController
 @RequestMapping(value = "/workers")
-public class WorkerResource {
+public class WorkerController {
 	
-	private static Logger logger = LoggerFactory.getLogger(WorkerResource.class);
+	private static Logger logger = LoggerFactory.getLogger(WorkerController.class);
 	
 	@Value("${test.config}")
 	private String testConfig;
